@@ -2,6 +2,7 @@ import './App.css';
 import Categories from './components/Categories';
 import Header from './components/Header';
 import FeaturedVideos from './components/FeaturedVideos';
+import Shorts from './components/Shorts';
 // import Video from './components/Video';
 
 function App() {
@@ -29,54 +30,9 @@ function App() {
   <i className="fa fa-bolt bot"></i><p className="short">Shorts</p>
 </div>
 </div>
-<div className="row">
-  <div className="col-md-2"></div>
-  <div className="col-md-2">
-    <iframe width="200" height="300" 
-    src="https://www.youtube.com/embed/_SsQYmttPvY" 
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-    gyroscope; picture-in-picture;web-share"allowfullscreen className="low"></iframe>
-    <h6 className="wed">Mad People's wedding</h6> 
-    <h6 className="wed">869k views</h6>
-   </div>
-    <div className="col-md-2">
-    <iframe width="200" height="300" 
-    src="https://www.youtube.com/embed/AeFUArBq0JY"
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-    gyroscope; picture-in-picture;web-share"allowfullscreen className="low1"></iframe>
-    <h6 className="wed1">I DON'T WANT PEACE</h6>
-    <h6 className="wed1">1.6M views</h6>
-  </div>
-  <div className="col-md-2">
-    <iframe width="200" height="300" 
-    src="https://www.youtube.com/embed/T39_gPzO_AI"
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-    gyroscope; picture-in-picture;web-share"allowfullscreen className="low2"></iframe>
-    <h6 className="wed2">Ebube Obio is a stepper #shorts</h6>
-    <h6 className="wed2">425k views</h6>
-  </div>
-  <div className="col-md-2">
-    <iframe width="200" height="300" 
-    src="https://www.youtube.com/embed/YCMYqe9nMJY"
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-    gyroscope; picture-in-picture;web-share"allowfullscreen className="low3"></iframe>
-    <h6>New dance challenge From ...</h6>
-    <h6>126k views</h6>
-  </div>
-  <div className="col-md-2">
-    <iframe width="200" height="300" 
-    src="https://www.youtube.com/embed/pxQtK4VP1DI"
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-    gyroscope; picture-in-picture;web-share"allowfullscreen className="low4"></iframe>
-    <h6>Davido's 30BG Gang does not fail 3/3</h6>
-    <h6>176 views</h6>
-  </div>
-</div>
+<Shorts/>
+
+    
 <hr />
 <div className="row">
   <div className="col-md-1"></div>
@@ -200,7 +156,8 @@ function App() {
   </div>
 </div>
 </div>
-    </div>
+</div>
+    
   );
 }
 
