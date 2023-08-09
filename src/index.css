@@ -11,3 +11,194 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: white;
+  margin: 0;
+}
+.hi{
+  color: gray;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.hello {
+  color: red;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.sea {
+  margin-left: -40px;
+}
+.fold {
+  font-size: 20px;
+  margin-top: 20px;
+  color: grey;
+  margin-left: 20px;
+}
+.be {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: grey;
+}
+.b {
+  border-radius: 50px;
+  background-color: blueviolet;
+  border: blueviolet;
+  color: white;
+  margin-left: 20px;
+}
+.rw {
+  margin-left: 15px;
+}
+.rw1 {
+  margin-left: 12px;
+  
+  
+}
+.cle {
+  margin-left: 25px;
+  font-size: 20px;
+  margin-top: 25px;
+}
+.vid {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.sho {
+  margin-left: 15px;
+}
+.para {
+  margin-left: -10px;
+}
+.hm {
+  font-size: 20px;
+  margin-top: 25px;
+}
+.mic {
+  font-size: 20px;
+  margin-left: 40px; 
+}
+.but {
+  border-radius: 10px;
+  margin-top: 20px;
+  color: grey;
+  
+}
+.search input[type=text]{
+ width: 500px;
+  height:30px;
+  border-radius:25px;
+  margin-top: 10px;
+}
+   
+.search{
+  margin:7px;
+  
+}
+
+.search button{
+  background-color: black;
+  color: #f2f2f2;
+  padding: 5px 10px;
+  margin-right: -20px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}   
+.notes {
+  margin-left: 50px;
+  border-radius: 20px;
+}
+.notess {
+  margin-left: 50px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.not {
+  margin-left: -15px;
+  border-radius: 20px;
+}
+.note {
+  margin-top: 20px;
+  margin-left: -15px;
+  border-radius: 20px;
+}
+.no {
+  margin-left: 25px;
+  border-radius: 20px;
+}
+.nay {
+  margin-left: 25px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+hr {
+  width: 90%;
+  height: 30px;
+  margin-left: 120px;
+  border-top: 2px solid black;
+  margin-top: 40px;
+}
+.bot {
+  color: red;
+  font-size: 25px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.short {
+  margin-left: 60px;
+  margin-top: -32px;
+  font-size: 25px;
+  font-family: serif;
+}
+.low {
+  border-radius: 20px;
+  margin-left: -80px;
+}
+.low1 {
+  border-radius: 20px;
+  margin-left: -65px;
+}
+.low2 {
+  border-radius: 20px;
+  margin-left: -50px;
+}
+.low3 {
+  border-radius: 20px;
+  margin-left: -30px;
+}
+.low4 {
+  border-radius: 20px;
+  margin-left: -20px;
+}
+.come {
+  text-align: center;  
+}
+.navbar {
+  overflow: hidden;
+  position:fixed;
+  width: 100%; 
+}
+.navbar a {
+  color: gray;
+  text-align: center;
+  text-decoration: none;
+  
+}
+.navbar a:hover {
+  
+  color: gray;
+}
+.wed {
+  margin-left: -65px;
+}
+.wed1 {
+  margin-left: -45px;
+}
+.wed2 {
+  margin-left: -35px;
+}
