@@ -3,6 +3,8 @@ import Categories from './components/Categories';
 import Header from './components/Header';
 import FeaturedVideos from './components/FeaturedVideos';
 import Shorts from './components/Shorts';
+import OtherVideos from './components/OtherVideos';
+import OtherVideos2 from './components/OtherVideos2';
 // import Video from './components/Video';
 
 function App() {
@@ -34,61 +36,11 @@ function App() {
 
     
 <hr />
-<div className="row">
-  <div className="col-md-1"></div>
-  <div className="col-md-4">
-    <iframe width="340" height="250" src="https://www.youtube.com/embed/Qbin1jrsanM"
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-    gyroscope; picture-in-picture; web-share" allowfullscreen className="nay"></iframe>
-    <h6 className="come">Barr. Sabinus on it again </h6>
-   <h6 className="come">1.9M views</h6>
-  </div>
-  <div className="col-md-3">
-    <iframe width="340" height="250" src="https://www.youtube.com/embed/9FI2QRJMZC0"
-    title="YouTube video player" frameborder="0" allow="accelerometer; 
-    autoplay; clipboard-write; encrypted-media; gyroscope;
-    picture-in-picture; web-share" allowfullscreen className="note"></iframe>
-    <h6 className="come">ALFA KARAMBANI'S NEW</h6>
-   <h6 className="come">600 views</h6>
-  </div>
-  <div className="col-md-4">
-    <iframe width="340" height="250" src="https://www.youtube.com/embed/NYNz4oIE88g"
-    title="YouTube video player" frameborder="0" allow="accelerometer; 
-    autoplay; clipboard-write; encrypted-media; gyroscope;
-    picture-in-picture; web-share" allowfullscreen className="notess"></iframe>
-    <h6 className="come">Fake Life ft Bimbo Adem</h6>
-   <h6 className="come">900 views</h6>
-  </div>
-</div>
 
-<div className="row">
-  <div className="col-md-1"></div>
-  <div className="col-md-4">
-    <iframe width="340" height="250" src="https://www.youtube.com/embed/MHAAm1G4O9E"
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-    gyroscope; picture-in-picture; web-share" allowfullscreen className="nay"></iframe>
-    <h6 className="come">Mc Pashum(Titus) is comedy beast</h6>
-   <h6 className="come">10k views . 1 year ago</h6>
-  </div>
-  <div className="col-md-3">
-    <iframe width="340" height="250" src="https://www.youtube.com/embed/FVcW9Aj5R2g"
-    title="YouTube video player" frameborder="0" allow="accelerometer; 
-    autoplay; clipboard-write; encrypted-media; gyroscope;
-    picture-in-picture; web-share" allowfullscreen className="note"></iframe>
-    <h6 className="come">Johnny Drille - Beleive Me (Official Music Video)</h6>
-   <h6 className="come">4.8M views . 1 Month ago</h6>
-  </div>
-  <div className="col-md-4">
-    <iframe width="340" height="250" src="https://www.youtube.com/embed/JEhqIFt_aTs"
-    title="YouTube video player" frameborder="0" allow="accelerometer; 
-    autoplay; clipboard-write; encrypted-media; gyroscope;
-    picture-in-picture; web-share" allowfullscreen className="notess"></iframe>
-    <h6 className="come">Love and Stitches | Sonia Uche | Maurice Sam</h6>
-   <h6 className="come">256k views . 2 month ago</h6>
-  </div>
-</div>
+<OtherVideos/>
+
+<OtherVideos2/>
+
 
 <div className="row">
   <div className="col-md-1"></div>
